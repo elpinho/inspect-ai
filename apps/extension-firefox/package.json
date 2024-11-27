@@ -1,0 +1,25 @@
+{
+  "name": "@inspect-ai/extension-firefox",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint \"src/**/*.ts*\""
+  },
+  "dependencies": {
+    "@inspect-ai/shared": "workspace:*",
+    "@inspect-ai/ui-shared": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/firefox-webext-browser": "^111.0.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8",
+    "vite-plugin-web-extension": "^4.0.0"
+  }
+}

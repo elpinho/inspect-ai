@@ -1,0 +1,28 @@
+{
+  "name": "@inspect-ai/extension-chrome",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint \"src/**/*.ts*\"",
+    "format": "prettier --write \"src/**/*.{ts,tsx,html,css,json}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,html,css,json}\""
+  },
+  "dependencies": {
+    "@inspect-ai/shared": "workspace:*",
+    "@inspect-ai/ui-shared": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.21",
+    "@types/chrome": "^0.0.254",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  }
+}
