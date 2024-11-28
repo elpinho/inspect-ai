@@ -9,7 +9,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         devtools: 'src/devtools.html',
-        panel: 'src/panel.html',
+        panel: 'panel.html',
         main: 'index.html'
       }
     }

@@ -8,7 +8,6 @@ This monorepo uses [pnpm](https://pnpm.io) as a package manager and includes the
 
 ### Apps
 
-- `api`: a [Fastify](https://fastify.io/) server
 - `extension-chrome`: a Chrome extension built with React and TypeScript
 - `extension-firefox`: a Firefox extension built with React and TypeScript
 

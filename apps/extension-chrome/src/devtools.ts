@@ -69,7 +69,6 @@ chrome.devtools.panels.elements.createSidebarPane('Inspect AI', (sidebar) => {
             // and return the whole package
             outer.innerHTML = html
             return outer.outerHTML
-
         }
 
         })()`,
